@@ -1,0 +1,32 @@
+/*
+    ResetCSS : 모든 Style 값을 전부 0으로 함.
+    NormalizeCSS : ResetCSS 처럼 0은 아니지만 각각 태그별로 default 값을 지정해줌
+     - 같은 태그 임에도 Brouser 별로 크기가 다른 문제를 해결 가능
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  /* 처음 입력한 것부터 우선순위로 Font 적용 */
+  font-family: "Open Sans", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  height: 100000px;
+}
+
+a {
+  /* 부모로부터 색깔을 가져옴 */
+  color: inherit;
+  text-decoration: none;
+}
