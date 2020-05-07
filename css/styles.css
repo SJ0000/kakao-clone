@@ -3,13 +3,17 @@
     NormalizeCSS : ResetCSS 처럼 0은 아니지만 각각 태그별로 default 값을 지정해줌
      - 같은 태그 임에도 Brouser 별로 크기가 다른 문제를 해결 가능
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 * {
   box-sizing: border-box;
